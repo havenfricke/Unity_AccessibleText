@@ -1,4 +1,4 @@
-### ADHD Accessible Text  
+### ADHD / Dyslexia Accessible Text  
 
 ![Preview](example.png)
 
