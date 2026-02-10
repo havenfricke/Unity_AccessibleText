@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-public sealed class ADHDAccessibleText : MonoBehaviour
+public sealed class AccessibleTMPText : MonoBehaviour
 {
     private List<TextMeshProUGUI> TMPUIText = new List<TextMeshProUGUI>();
 
