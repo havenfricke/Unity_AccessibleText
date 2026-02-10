@@ -1,4 +1,7 @@
 ### ADHD Accessible Text  
+
+![Preview](example.png)
+
 Bionic‑Style Emphasis System for Unity (with Dynamic Child‑Object Support)
 
 This component applies a bionic‑reading‑style transformation to all TextMeshProUGUI elements under a GameObject. It bolds the first portion of each word using TextMeshPro rich‑text tags and automatically updates when new child objects are added to the hierarchy.
