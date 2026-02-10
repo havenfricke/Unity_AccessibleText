@@ -15,7 +15,7 @@ This component applies a bionic‑reading‑style transformation to all TextMesh
 - Uses safe substring operations to avoid out‑of‑range errors
 - Rebuilds text using `StringBuilder`
 - Reacts to hierarchy changes through Unity’s built‑in `OnTransformChildrenChanged`
-- Supports inactive UI elements
+- Supports hierarchy complexity for inactive and nested UI elements 
 - Avoids duplicate component references
 
 ---
