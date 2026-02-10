@@ -8,6 +8,8 @@ public sealed class ADHDAccessibleText : MonoBehaviour
 {
     private List<TextMeshProUGUI> TMPUIText = new List<TextMeshProUGUI>();
 
+    
+
     private void OnEnable()
     {
         TMPUIText.Clear();
@@ -22,7 +24,7 @@ public sealed class ADHDAccessibleText : MonoBehaviour
         TMPUIText.Clear();
     }
 
-    // Build in Unity method: fires once a child gameObject is added, removed, or re-parented
+    // Built in Unity method: fires once a child gameObject is added, removed, or re-parented
     private void OnTransformChildrenChanged()
     {
         TMPUIText = GetComponentsInChildren<TextMeshProUGUI>(includeInactive: true).Distinct().ToList();
