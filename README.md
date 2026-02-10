@@ -19,7 +19,7 @@ This component applies a bionic‑reading‑style transformation to all TextMesh
 
 ### How to Use
 
-- Place on the parent `GamObject` where your `TextMeshProUGUI` components are (`Canvas` is best).
+- Place on the parent `GameObject` where `TextMeshProUGUI` child components are (`Canvas` is best).
 - That's it. The text will change during runtime and adapts to inactive and newly added `TextMeshProUGUI` child objects.
 
 
